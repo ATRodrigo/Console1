@@ -17,7 +17,9 @@
 
 			Console.WriteLine("Digite sua senha: ");
 			senha = Console.ReadLine();
-			}while (!usuario.Logar(login, senha));
+
+			Console.WriteLine("Digite novamente");
+			} while (!usuario.Logar(login, senha));
 
 			Console.WriteLine(usuario.Logar(login, senha));
 			//Console.WriteLine("Olá, "+usuario.nome);
